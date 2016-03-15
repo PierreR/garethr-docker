@@ -22,7 +22,6 @@ class docker::params {
   $service_state                     = running
   $service_enable                    = true
   $service_provider                  = undef
-  $service_overrides_template        = undef
   $manage_service                    = true
   $root_dir                          = undef
   $tmp_dir                           = '/tmp/'
